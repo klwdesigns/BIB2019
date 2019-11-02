@@ -1,0 +1,60 @@
+.bold-title img {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.bold-title {
+     color: gray;
+}
+
+
+.subtitle.is-3 {
+  font-size: 1.5rem;
+  color: gray
+}
+
+a {
+  color: #333399;
+}
+
+.markdown a {
+  color: #333399;
+}
+
+.container .markdown a {
+  color: #333399;
+}
+
+.container .markdown .fade-in a {
+  color: #333399;
+}
+
+.hero-body a {
+  color: #333399;
+}
+
+.image.is-3by2 img {
+  height:auto;
+}
+
+.byline {
+  font-size: 2rem;
+  padding-left: 10px;
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:768px) {
+    .byline {
+        font-size: 1rem;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+.container h2 a {
+  color: black;
+}
+
+.column .card {
+  padding-bottom: 50px;
+}
