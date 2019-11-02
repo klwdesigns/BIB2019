@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div class="container has-text-centered top-pad">
+               <a href="{{ site.baseurl }}">
+                    <img src="{{ site.baseurl }}/img/BIB-logo.svg" style="width: 200px; box-shadow: none; border: none;" alt="Blue Iris Books" />
+               </a>
+
+</div>
+
+<div class="section" id="top">
+     <div class="container hero  fade-in one ">
+     <h1 class="bold-title is-1">{{ page.title }}</h1>
+     </div>
+
+     <div class="section  fade-in two ">
+          <div class="container">
+          <hr>
+     <nav class="nav nav-center">
+         <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+           <span></span>
+           <span></span>
+           <span></span>
+         </span>
+         <div id="nav-menu" class="nav-left nav-menu">
+           <span class="nav-item">
+             <a href="{{ site.baseurl }}/about">About</a>
+           </span>
+
+           <span class="nav-item">
+             <a href="{{ site.baseurl }}/books">Books</a>
+           </span>
+
+
+           <span class="nav-item">
+
+             <a href="{{ site.baseurl }}/Contact">Contact</a>
+
+           </span>
+
+         </div>
+     </nav>
+<hr>
+
+</div>
+
+<div class="container markdown  fade-in two  top-pad">
+
+
+     {{ content }}
+
+</div>
+
+     <div class="container has-text-centered top-pad">
+          <hr>
+               <a href="#top">
+                    <i class="fa fa-arrow-up"></i>
+               </a>
+          <hr>
+
+     </div>
+</div>
